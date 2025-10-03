@@ -1,0 +1,358 @@
+.animalDetailsContainer {
+    width: 356px;
+    height: 460px;
+    position: relative;
+    background: white;
+    border-radius: 10px;
+    border: 1px #DEDEDE solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Animal Image */
+.animalImage {
+    width: 58.33px;
+    height: 58.33px;
+    left: 30px;
+    top: 36.83px;
+    position: absolute;
+    border-radius: 9999px;
+    object-fit: cover;
+}
+
+/* Animal Details Section */
+.animalDetailsSection {
+    height: 74px;
+    left: 30px;
+    top: 134px;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.detailsTitle {
+    color: #6E6E72;
+    font-size: 14px;
+    font-family: 'Inter';
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.breedSizeContainer {
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.breedContainer,
+.sizeContainer {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.breedText,
+.sizeText {
+    color: #020305;
+    font-size: 14px;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+/* Divider */
+.divider {
+    width: 296px;
+    height: 1px;
+    left: 30px;
+    top: 221px;
+    position: absolute;
+    background: #DEDEDE;
+}
+
+/* Care Requirement Section */
+.careRequirementContainer {
+    width: 296px;
+    height: 55px;
+    left: 30px;
+    top: 237px;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.careRequirementTitle {
+    color: #6E6E72;
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+.careRequirementText {
+    color: black;
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+/* Animal Name and Type Section */
+.animalNameType {
+    height: 40px;
+    left: 98px;
+    top: 46px;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.animalNameContainer {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.animalName {
+    color: #020305;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+.statusIcon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+.animalSpecies {
+    color: #A0A0A3;
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+/* Description Section */
+.descriptionContainer {
+    width: 296px;
+    left: 30px;
+    top: 280px;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.descriptionTitle {
+    color: #6E6E72;
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+.descriptionText {
+    color: black;
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+/* Care Details Section */
+.careDetailsSection {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.careDetailsHeader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    padding: 20px 20px 10px 20px;
+    z-index: 2;
+}
+
+.careDetailsHeader h2 {
+    color: #020305;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 500;
+    margin: 0;
+}
+
+.careDetailsContent {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    overflow-y: auto;
+    /*height: calc(100% - 120px);*/
+    padding: 0 20px;
+    scrollbar-width: none;
+}
+
+/* Care List Styles */
+.careDetailsSection ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+
+}
+
+.careDetailsSection ul::-webkit-scrollbar {
+    width: 6px;
+}
+
+.careDetailsSection ul::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.careDetailsSection ul::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+}
+
+.careDetailsSection li {
+    padding: 12px;
+    border: 1px solid #DEDEDE;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* Date Container Styles */
+.dateContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.dateInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dateLabel {
+    color: #6E6E72;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.dateValue {
+    color: #020305;
+    font-size: 14px;
+}
+
+/* Status Styles */
+.statusIndicator {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 12px;
+    background-color: #EFEFEE;
+    border-radius: 20px;
+    margin: 8px 0;
+}
+
+.statusText {
+    color: #6E6E72;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+/* Button Styles */
+.nextButtonContainer {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 3;
+}
+
+.nextButton {
+    padding: 8px 16px;
+    background-color: #7A9F54;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.nextButton:hover {
+    opacity: 0.9;
+}
+
+.helpButton {
+    width: 100%;
+    padding: 8px;
+    background-color: #edcc86;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 8px;
+    transition: opacity 0.2s;
+}
+
+.helpButton:hover {
+    background-color: #edbb4f;
+}
+
+.addressContainer {
+    width: 296px;
+    left: 30px;
+    top: 330px;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.addressTitle {
+    color: #6E6E72;
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+.addressText {
+    color: black;
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: 500;
+}

@@ -1,0 +1,50 @@
+.primary {
+    position: relative;
+    font-weight: 500;
+}
+
+.buttonToolbar {
+    width: 118px;
+    border-radius: var(--br-xl);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.buttonToolbar:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.buttonToolbarParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-21xl);
+}
+
+.primary1Button {
+    width: 118px;
+    border-radius: var(--br-xl);
+    background-color: var(--button-color);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+    color: var(--color-white);
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.primary1Button:hover {
+    opacity: 0.9;
+}

@@ -1,0 +1,221 @@
+.pageContainer {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xl) 0;
+    background-color: var(--gray);
+}
+
+.animalRegistrationContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+    padding: var(--padding-xl);
+    background-color: var(--color-white);
+    font-family: var(--title), sans-serif;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.05);
+    border-radius: var(--br-xl);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: var(--gap-11xl);
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-xs);
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.brandInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.brandName {
+    font-weight: 500;
+    color: var(--text1);
+    font-size: var(--title-size);
+}
+
+.brandDescription {
+    font-size: var(--font-size-sm);
+    color: var(--text2);
+}
+
+.exitIcon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.title {
+    font-size: var(--font-size-5xl);
+    font-weight: 700;
+    color: var(--text1);
+    margin-bottom: var(--gap-11xl);
+    width: 100%;
+    text-align: center;
+}
+
+.registrationForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-sm);
+    min-height: 320px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-8xs);
+    margin-bottom: var(--gap-xs);
+}
+
+.inputLabel {
+    font-size: var(--font-size-sm);
+    color: var(--text1);
+    font-weight: 600;
+}
+
+.required {
+    color: var(--red);
+    margin-left: 2px;
+}
+
+.inputField,
+.selectField,
+.textareaField {
+    padding: var(--padding-xs);
+    font-size: var(--font-size-base);
+    border: 1px solid var(--primary-stroke);
+    border-radius: 25px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    background-color: var(--color-white);
+}
+
+.textareaField {
+    height: 120px;
+    resize: vertical;
+    padding: var(--padding-xs);
+    border-radius: var(--br-xl);
+}
+
+.selectField {
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L7 7L13 1" stroke="%236E6E72" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    padding-right: 40px;
+}
+
+.uploadArea {
+    border: 2px dashed var(--primary-stroke);
+    border-radius: var(--br-xl);
+    padding: var(--padding-xs);
+    text-align: center;
+    cursor: pointer;
+    margin-top: var(--gap-8xs);
+    transition: border-color 0.3s;
+    min-height: 120px;
+    max-height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.uploadArea:hover {
+    border-color: var(--furryfriends-color);
+}
+
+.uploadIcon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: var(--gap-8xs);
+    opacity: 0.5;
+}
+
+.uploadText {
+    color: var(--text2);
+    font-size: var(--font-size-sm);
+}
+
+.previewImage {
+    max-width: 100%;
+    max-height: 110px;
+    object-fit: contain;
+    border-radius: var(--br-3xs);
+}
+
+.errorMessage {
+    color: var(--red);
+    font-size: var(--font-size-sm);
+    text-align: center;
+    margin-top: var(--gap-xs);
+}
+
+.progressBar {
+    display: flex;
+    justify-content: center;
+    gap: var(--gap-xs);
+    margin: var(--gap-xs) 0;
+    width: 100%;
+}
+
+.progressDot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--primary-stroke);
+    transition: background-color 0.3s;
+}
+
+.progressDot.active {
+    background-color: var(--furryfriends-color);
+}
+
+.buttonGroup {
+    display: flex;
+    gap: var(--gap-xs);
+    margin-top: var(--gap-xs);
+}
+
+.formButton {
+    flex: 1;
+    padding: var(--padding-xs);
+    background-color: var(--furryfriends-color);
+    color: var(--color-white);
+    border: none;
+    border-radius: 25px;
+    font-size: var(--font-size-base);
+    cursor: pointer;
+    height: 40px;
+    font-family: var(--title);
+    font-weight: 500;
+}
+
+.formButton:hover {
+    background-color: #b19171;
+}
+
+.formButton:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}

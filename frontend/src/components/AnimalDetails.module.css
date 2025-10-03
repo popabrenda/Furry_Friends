@@ -1,0 +1,137 @@
+.primary {
+    position: relative;
+    font-weight: 500;
+}
+.animalChild {
+    position: absolute;
+    top: 36.83px;
+    left: 30px;
+    border-radius: 50%;
+    width: 58.3px;
+    height: 58.3px;
+    object-fit: cover;
+}
+.moreHorizontalIcon {
+    position: absolute;
+    top: 38px;
+    left: 306px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+.details {
+    align-self: stretch;
+    position: relative;
+    font-weight: 500;
+}
+.pawParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-mini);
+}
+.sizeIcon {
+    width: 20px;
+    position: relative;
+    height: 20px;
+}
+.sizeParent {
+    width: 77px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-sm);
+}
+.frameDiv {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-8xs);
+    color: var(--text1);
+}
+.detailsParent {
+    position: absolute;
+    top: 134px;
+    left: 30px;
+    width: 113px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+}
+.animalItem {
+    position: absolute;
+    top: 221px;
+    left: 30px;
+    background-color: var(--primary-stroke);
+    width: 296px;
+    height: 1px;
+}
+.egLowMedium {
+    align-self: stretch;
+    position: relative;
+    font-weight: 500;
+    color: var(--color-black);
+}
+.dailyCareRequirementParent {
+    position: absolute;
+    top: 237px;
+    left: 30px;
+    width: 296px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-8xs);
+    font-size: var(--font-size-xs);
+}
+.nameParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+}
+.species {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-xs);
+    color: var(--text3);
+}
+.frameParent1 {
+    position: absolute;
+    top: 46px;
+    left: 98px;
+    width: 158px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-8xs);
+    font-size: var(--font-size-base);
+    color: var(--text1);
+}
+.animal {
+    width: 356px;
+    position: relative;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--primary-stroke);
+    box-sizing: border-box;
+    height: 323px;
+    overflow: hidden;
+    flex-shrink: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+

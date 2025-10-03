@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group = 'winx'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(path: ':Model')
+    implementation 'com.microsoft.sqlserver:mssql-jdbc:10.2.1.jre8'
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    implementation 'org.springframework:spring-context:6.1.5'
+}
+
+test {
+    useJUnitPlatform()
+}

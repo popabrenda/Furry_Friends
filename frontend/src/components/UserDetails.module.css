@@ -1,0 +1,141 @@
+.user {
+    width: 357px;
+    position: relative;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid var(--primary-stroke);
+    box-sizing: border-box;
+    height: 323px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--text2);
+    font-family: var(--title);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.userChild {
+    position: absolute;
+    top: 36.83px;
+    left: 30px;
+    border-radius: 50%;
+    width: 58.3px;
+    height: 58.3px;
+    object-fit: cover;
+}
+
+.moreHorizontalIcon {
+    position: absolute;
+    top: 38px;
+    right: 30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: var(--text2);
+}
+
+.contact {
+    align-self: stretch;
+    position: relative;
+    font-weight: 500;
+}
+
+.telefonIcon {
+    width: 20px;
+    height: 20px;
+    color: var(--text2);
+}
+
+.phoneNumber {
+    position: relative;
+    font-weight: 500;
+    color: var(--text1);
+}
+
+.telefonParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.mailParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+}
+
+.frameParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-8xs);
+}
+
+.contactParent {
+    position: absolute;
+    top: 134px;
+    left: 30px;
+    width: 296px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.userItem {
+    position: absolute;
+    top: 221px;
+    left: 30px;
+    background-color: var(--primary-stroke);
+    width: 296px;
+    height: 1px;
+}
+
+.suntPasionatDe {
+    align-self: stretch;
+    position: relative;
+    font-weight: 500;
+    color: var(--color-black);
+    font-size: var(--font-size-xs);
+}
+
+.descriptionParent {
+    position: absolute;
+    top: 237px;
+    left: 30px;
+    width: 296px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-8xs);
+}
+
+.nameAndSurnameParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.age {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-xs);
+    color: var(--text3);
+}
+
+.frameGroup {
+    position: absolute;
+    top: 46px;
+    left: 98px;
+    width: 158px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-8xs);
+}

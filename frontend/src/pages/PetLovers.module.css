@@ -1,0 +1,146 @@
+.petsLovers {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    min-height: 100vh;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--text2);
+    font-family: var(--title);
+}
+
+.furryfriendsLogoIcon {
+    width: 68px;
+    height: 68px;
+    object-fit: cover;
+}
+
+.furryfriends {
+    align-self: stretch;
+    position: relative;
+    color: var(--text1);
+}
+
+.etCare {
+    text-transform: lowercase;
+}
+
+.petCare {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-weight: 300;
+}
+
+.furryfriendsParent {
+    width: 113px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.furryfriendsLogoParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-3xs);
+}
+
+.primary {
+    position: relative;
+    font-weight: 500;
+    color: var(--text1);
+}
+
+.buttonToolbar {
+    width: 118px;
+    border-radius: var(--br-xl);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.buttonToolbar:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.buttonToolbarParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-21xl);
+}
+
+.primary1Button {
+    width: 118px;
+    border-radius: var(--br-xl);
+    background-color: var(--button-color);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+    color: var(--color-white);
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.primary1Button:hover {
+    opacity: 0.9;
+}
+
+.frameGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    font-size: var(--font-size-base);
+}
+
+.frameParent {
+    position: absolute;
+    top: 20px;
+    left: 138px;
+    /*left: 150px;*/
+    border-radius: 0 0 var(--br-xl) var(--br-xl);
+    /*width: 1164px;*/
+    width: 1260px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: var(--title-size);
+}
+
+.vectorIcon {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background-color: #F5EBE0;
+    /*clip-path: path('M0 100V0C200 50 800 50 1000 0V100H0Z');*/
+    z-index: 0;
+}
+
+.petLoversList {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+    padding: 32px 138px;
+    margin-top: 150px;
+}

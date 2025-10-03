@@ -1,0 +1,93 @@
+.furryfriendsLogoIcon {
+    width: 68px;
+    position: relative;
+    height: 68px;
+    object-fit: cover;
+}
+.furryfriends {
+    align-self: stretch;
+    position: relative;
+}
+.etCare {
+    text-transform: lowercase;
+}
+.petCare {
+    align-self: stretch;
+    position: relative;
+    font-size: 12px;
+    font-weight: 300;
+}
+.furryfriendsParent {
+    width: 113px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.furryfriendsLogoParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.primary {
+    position: relative;
+    font-weight: 500;
+}
+.buttonToolbar {
+    width: 118px;
+    border-radius: var(--br-xl);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+}
+.buttonToolbarParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.primary1Button {
+    width: 118px;
+    border-radius: var(--br-xl);
+    background-color: var(--button-color);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+    color: #fff;
+}
+.frameGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*justify-content: flex-start;*/
+    justify-content: flex-end;
+    gap: 40px;
+    font-size: var(--font-size-base);
+
+    margin-left: auto;
+}
+.frameParent {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 343px;
+    /*padding: 20px 138px;*/
+    text-align: left;
+    font-size: var(--title-size);
+    color: var(--text1);
+    font-family: var(--title);
+}
+

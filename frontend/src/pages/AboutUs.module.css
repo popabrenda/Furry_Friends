@@ -1,0 +1,118 @@
+.frameParent {
+    position: absolute;
+    top: 20px;
+    left: 138px;
+    width: 1260px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px; /* Folosită valoarea explicită pentru gap */
+}
+
+.pets {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    min-height: 100vh;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--text2);
+    font-family: var(--title);
+}
+
+.pawIcon {
+    position: absolute;
+    top: 336px;
+    left: -53px;
+    width: 325.8px;
+    height: 325.8px;
+    object-fit: contain;
+}
+.pawIcon1 {
+    position: absolute;
+    top: 158px;
+    left: 1203px;
+    width: 277.5px;
+    height: 277.5px;
+    object-fit: contain;
+}
+.pawIcon2 {
+    position: absolute;
+    top: 10px;
+    left: 349px;
+    width: 313.3px;
+    height: 313.3px;
+    object-fit: contain;
+}
+.pawIcon3 {
+    position: absolute;
+    top: 668px;
+    left: 396px;
+    width: 281.1px;
+    height: 281.1px;
+    object-fit: contain;
+}
+.pawIcon4 {
+    position: absolute;
+    top: 490.11px;
+    left: 806.11px;
+    width: 301.1px;
+    height: 301.1px;
+    object-fit: contain;
+}
+
+.aboutUsPage {
+    width: 100%;
+    position: relative;
+    background-color: #fff; /* Folosită valoarea explicită pentru alb */
+    height: 100vh;
+    overflow: hidden;
+    text-align: left;
+    font-size: 18px; /* Folosită valoarea explicită pentru font size */
+    color: #020305; /* Folosită valoarea explicită pentru text1 */
+    font-family: Arial, sans-serif; /* Folosit fontul Arial */
+}
+
+.aboutUsHeader {
+    position: relative;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    text-align: center;
+    font-size: 44px; /* Folosită valoarea explicită pentru font size */
+    font-weight: 500;
+    line-height: 1.5;
+    color: #020305; /* Folosită valoarea explicită pentru text1 */
+}
+
+.aboutUsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 14px; /* Folosită valoarea explicită pentru gap */
+    padding: 20px 5px; /* Folosită valoarea explicită pentru padding */
+    width: 100%;
+}
+
+.aboutUsText {
+    max-width: 900px;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+    color: #020305; /* Folosită valoarea explicită pentru text1 */
+    margin-bottom: 20px; /* Reduced space between paragraphs */
+
+}
+
+.aboutUsTitle {
+    font-size: 45px; /* Increased font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center-aligned */
+    color: #020305; /* Dark black color */
+    margin-top: 12px; /* Space above the title */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}

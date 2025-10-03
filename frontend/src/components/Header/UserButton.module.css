@@ -1,0 +1,35 @@
+.userButtonContainer {
+    position: relative;
+    display: inline-block;
+    z-index: 100;
+}
+
+.userAvatar {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.userMenu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: var(--furryfriends-color);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: var(--br-xl);
+    width: 200px;
+    z-index: 200;
+}
+
+.menuItem {
+    padding: var(--gap-3xs);
+    font-size: var(--font-size-sm);
+    color: var(--color-white);
+    cursor: pointer;
+    border-radius: var(--br-xl);
+}
+
+.menuItem:hover {
+    background-color: var(--gray);
+    color: var(--text1);
+}

@@ -1,0 +1,191 @@
+.fullscreenContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-white);
+    font-family: var(--title);
+}
+
+.frameParent {
+    position: absolute;
+    top: 20px;
+    left: 138px;
+    width: 1260px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 58px;
+}
+
+.animalDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*margin-top: var(--gap-15xl);*/
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.backButton {
+    margin-top: var(--gap-sm);
+    padding: var(--padding-xs) var(--padding-3xs);
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+    background-color: var(--button-color);
+    border: none;
+    border-radius: var(--br-3xs);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.backButton:hover {
+    background-color: var(--furryfriends-color);
+}
+
+.petsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /*margin-top: var(--gap-11xl);*/
+    margin-top: 100px;
+    margin-bottom: auto;
+}
+
+.petsTitle {
+    font-size: var(--font-size-5xl);
+    font-weight: bold;
+    color: var(--text1);
+    margin-bottom: var(--gap-sm);
+}
+
+.petsList {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-sm);
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.caringSessionCard {
+    padding: var(--padding-3xs);
+    border: 1px solid var(--primary-stroke);
+    border-radius: var(--br-3xs);
+    background-color: var(--gray);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.caringSessionCard:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.animalLink {
+    color: var(--button-color);
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.animalLink:hover {
+    color: var(--furryfriends-color);
+    text-decoration: underline;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    margin-top: var(--gap-15xl);
+}
+
+
+.completeSessionButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    float: right;
+}
+
+.completeSessionButton:hover {
+    background-color: #45a049;
+}
+
+.feedbackForm {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    width: 80%;
+    max-width: 600px;
+}
+
+.feedbackForm h3 {
+    margin-bottom: 10px;
+}
+
+.feedbackForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.feedbackForm button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedbackForm button:first-of-type {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.feedbackForm button:first-of-type:hover {
+    background-color: #45a049;
+}
+
+.feedbackForm button:last-of-type {
+    background-color: #f44336;
+    color: white;
+}
+
+.feedbackForm button:last-of-type:hover {
+    background-color: #d32f2f;
+}
+
+
+/*.imageContainer {*/
+/*    margin-top: var(--gap-15xl);*/
+/*    text-align: center;*/
+/*}*/
+
+/*.imageContainer img {*/
+/*    width: 100px;*/
+/*    height: auto;*/
+/*}*/
+
+/*.imageContainerGreen {*/
+/*    margin-top: var(--gap-sm);*/
+/*    text-align: center;*/
+/*}*/
+
+/*.imageContainerGreen img {*/
+/*    width: 100px;*/
+/*    height: auto;*/
+/*}*/

@@ -1,0 +1,427 @@
+.fullscreenContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.myAnimalDetailsContainer {
+    width: 356px;
+    min-height: 350px;
+    max-height: 350px;
+    position: relative;
+    background: white;
+    border-radius: 10px;
+    overflow: auto;
+    border: 1px #DEDEDE solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myAnimalImage {
+    width: 58.33px;
+    height: 58.33px;
+    left: 30px;
+    top: 36.83px;
+    position: absolute;
+    border-radius: 9999px;
+}
+
+.myAnimalDetailsSection {
+    height: 74px;
+    left: 30px;
+    top: 134px;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.detailsTitle {
+    color: #6E6E72;
+    font-size: 14px;
+    font-family: 'Inter';
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.breedSizeContainer {
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.breedContainer,
+.sizeContainer {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.breedContainer img,
+.sizeContainer img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.breedText,
+.sizeText {
+    color: #020305;
+    font-size: 14px;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+.divider {
+    width: 296px;
+    height: 1px;
+    left: 30px;
+    top: 221px;
+    position: absolute;
+    background: #DEDEDE;
+}
+
+.careRequirementContainer {
+    width: 296px;
+    height: 55px;
+    left: 30px;
+    top: 237px;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.careRequirementTitle {
+    color: #6E6E72;
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+.careRequirementText {
+    color: black;
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+.myAnimalNameType {
+    height: 40px;
+    left: 98px;
+    top: 46px;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.myAnimalNameContainer {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.myAnimalName {
+    color: #020305;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+.statusIcon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+.myAnimalSpecies {
+    color: #A0A0A3;
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+.descriptionContainer {
+    width: 296px;
+    left: 30px;
+    top: 280px;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 0;
+    max-height: 100%;
+    overflow: auto;
+}
+
+.descriptionTitle {
+    color: #6E6E72;
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+.descriptionText {
+    color: black;
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: 400;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.helpButton {
+    background-color: #edcc86;
+    color: white;
+    border: none;
+    padding: 3px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.helpButton:hover {
+    background-color: #edbb4f;
+}
+
+.nextButtonContainer {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 36.83px;
+    width: 20vh;
+    margin-left: 175px;
+}
+
+.backButtonContainer {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 20px;
+    width: 27vh;
+}
+
+.nextButton{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 10px;
+}
+
+.backButton {
+    margin-top: var(--gap-sm);
+    padding: var(--padding-xs) var(--padding-3xs);
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+    background-color: #4CAF50;
+    border: none;
+    border-radius: var(--br-3xs);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nextButton:hover,
+.backButton:hover {
+    background-color: #45a049;
+}
+
+.nextButton:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.successNotification {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.successNotification.fadeIn {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.viewCareNeedsContainer {
+    margin-top: 40px;
+    margin-right: 20px;
+    display: flex;
+}
+
+.viewCareNeedsButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.viewCareNeedsButton:hover {
+    background-color: #45a049;
+}
+
+.careNeedsContainer {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.deleteCareNeedButton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.deleteCareNeedButton:hover {
+    background-color: #d32f2f;
+}
+
+.reviewButton {
+    background-color: #f1d0ae;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reviewButton:hover {
+    background-color: #C2A281;
+}
+
+.backToDetailsContainer {
+    margin-top: 20px;
+    text-align: center;
+}
+.buttonsContainer{
+    bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px
+}
+
+.backToDetailsButton {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.backToDetailsButton:hover {
+    background-color: #45a049;
+}
+
+.addCareNeedButton {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.addCareNeedButton:hover {
+    background-color: #45a049;
+}
+
+.submitReviewButton{
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+.submitReviewButton:hover {
+    background-color: #45a049;
+}
+
+.submitCareNeedButton{
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+
+.submitCareNeedButton:hover {
+    background-color: #45a049;
+}
+
+.volunteerLink {
+    color: var(--button-color);
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.volunteerLink:hover {
+    color: var(--furryfriends-color);
+    text-decoration: underline;
+}

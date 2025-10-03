@@ -1,0 +1,329 @@
+/*.puppy11Icon {*/
+/*    position: absolute;*/
+/*    top: 40px;*/
+/*    left: 622px;*/
+/*    width: 818px;*/
+/*    height: 840px;*/
+/*    object-fit: cover;*/
+/*}*/
+.furryfriendsLogoIcon {
+    width: 68px;
+    position: relative;
+    height: 68px;
+    object-fit: cover;
+}
+.furryfriends {
+    align-self: stretch;
+    position: relative;
+}
+.etCare {
+    text-transform: lowercase;
+}
+.petCare {
+    align-self: stretch;
+    position: relative;
+    font-size: 12px;
+    font-weight: 300;
+}
+.furryfriendsParent {
+    width: 113px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.furryfriendsLogoParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+}
+.primary {
+    position: relative;
+    font-weight: 500;
+}
+.buttonToolbar {
+    width: 118px;
+    border-radius: var(--br-xl);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+}
+.buttonToolbarParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.primary1Button {
+    width: 118px;
+    border-radius: var(--br-xl);
+    background-color: var(--button-color);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+    color: var(--color-white);
+}
+.frameContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-21xl);
+    font-size: var(--font-size-base);
+}
+.frameGroup {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 343px;
+}
+/*.needSomeoneTo {*/
+/*    width: 500px;*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*}*/
+.atFurryfriendsYoullFind {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 24px;
+}
+.needSomeoneToCareForYourParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.primary2Button {
+    width: 134px;
+    border-radius: var(--br-xl);
+    background-color: var(--button-color);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+.primary2Button:hover {
+    opacity: 0.9;
+}
+/*.frameDiv {*/
+/*    width: 557px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: flex-start;*/
+/*    justify-content: flex-start;*/
+/*    gap: var(--gap-21xl);*/
+/*    font-size: var(--font-size-25xl);*/
+/*}*/
+.frameParent {
+    position: absolute;
+    top: 0px;
+    left: 138px;
+    /*width: 1164px;*/
+    width: 1260px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 99px;
+}
+.petLovers {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+}
+.parent {
+    width: 198px;
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-21xl) var(--padding-xl);
+    box-sizing: border-box;
+    gap: var(--gap-3xs);
+}
+.heartIcon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.heartParent {
+    width: 198px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-21xl) var(--padding-xl);
+    box-sizing: border-box;
+    gap: var(--gap-3xs);
+    color: var(--button-color);
+}
+.internationalAwards {
+    width: 156px;
+    position: relative;
+    font-size: var(--font-size-base);
+    display: inline-block;
+}
+.frameParent1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 60px;
+    font-size: var(--font-size-25xl);
+    color: var(--text2);
+}
+.ourAchievementsOf2024Parent {
+    position: absolute;
+    top: 0px;
+    left: 234px;
+    width: 972px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 45px;
+}
+.groupChild {
+    position: absolute;
+    top: 16.95px;
+    left: 0px;
+    width: 492px;
+    height: 136.8px;
+}
+.groupDiv {
+    position: absolute;
+    top: 564px;
+    left: 0px;
+    width: 1206px;
+    height: 275px;
+    text-align: center;
+    font-size: 28px;
+}
+.puppy11Parent {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 1440px;
+    height: 880px;
+}
+.startPage {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    height: 900px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--title-size);
+    color: var(--text1);
+    font-family: var(--title);
+}
+/*.petOption{*/
+/*    width: 280px;*/
+/*    height: 200px;*/
+/*    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);*/
+/*    border-radius: var(--br-xl);*/
+/*    background-color: var(--color-white);*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    padding: var(--padding-21xl) var(--padding-xl);*/
+/*    box-sizing: border-box;*/
+/*    gap: var(--gap-3xs);*/
+/*    color: var(--button-color);*/
+/*}*/
+
+
+
+
+
+.needSomeoneTo {
+    width: 500px;
+    position: relative;
+    display: inline-block;
+    z-index: 2; /* Add this */
+}
+
+.frameDiv {
+    width: 557px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-21xl);
+    font-size: var(--font-size-25xl);
+    position: relative; /* Add this */
+    z-index: 2; /* Add this */
+}
+
+.petOption {
+    width: 280px;
+    height: 200px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-21xl) var(--padding-xl);
+    box-sizing: border-box;
+    gap: var(--gap-3xs);
+    color: var(--text1); /* Change from button-color to text1 */
+    position: relative; /* Add this */
+    z-index: 2; /* Add this */
+}
+
+.puppy11Icon {
+    position: absolute;
+    top: 40px;
+    left: 622px;
+    width: 818px;
+    height: 840px;
+    object-fit: cover;
+    /*z-index: 1; !* Add this *!*/
+}
+
+/* Add styles for the text inside PetOption */
+.petOption p {
+    text-align: center;
+    font-size: var(--font-size-base);
+    margin: 0;
+    padding: 0 var(--padding-xs);
+}
+
+.petOption strong {
+    display: block;
+    margin-bottom: var(--gap-8xs);
+    color: var(--text1);
+}
